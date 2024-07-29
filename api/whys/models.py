@@ -43,6 +43,6 @@ class ProductImage(models.Model):
 
 class Catalog(models.Model):
     nazev = models.CharField(max_length=255)
-    obrazek = models.ForeignKey(Image, on_delete=models.CASCADE, null=True, blank=True)
+    obrazek = models.ForeignKey(Image, on_delete=models.SET_NULL, null=True, blank=True)
     products = models.ManyToManyField(Product)
     attributes = models.ManyToManyField(Attribute)
