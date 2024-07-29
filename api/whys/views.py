@@ -5,6 +5,7 @@ from rest_framework import status
 from django.core.exceptions import ObjectDoesNotExist
 from django.db import transaction
 from .models import AttributeName, AttributeValue, Attribute, Product, ProductAttributes, Image, ProductImage, Catalog
+from .serializers import *
 
 
 # General view for parsing input data
