@@ -1,4 +1,5 @@
 # WHYS - Django
+<br/>
 
 ## TASK / Problem
 Zadání: 
@@ -37,6 +38,7 @@ Endpointy:
 * Nezapomeň vytvořit requirements.txt
 * Nezapoměň vytvořit README, jak projekt spustit
 
+<br/>
 
 ## Solution
 I created simple api with 4 endpoints using django and django rest frameworkk. 
@@ -120,10 +122,18 @@ For your validation purposes, return arrays of successfully parsed and skipped m
 - Just for testing purposes
 - I left it in the app since you might want to use it too 
 
+<br/>
 
 ## LOCAL SETUP 
+1. Clone the repository
+2. Install requirements with ```pip install -r requirements.txt```
+3. Navigate ```cd api``` where the manage.py file is
+4. ```python3 manage.py makemigrations```
+5. ```python3 manage.py migrate```
+6. ```python3 manage.py runserver```
+7. Your server is running, you can test it using postman, or you can generate superuser and go to django admin dashboard
 
-
+<br/>
 
 ## TESTING
 
